@@ -29,5 +29,5 @@ pip install -r requirements.txt
 # Run the analysis
 python main.py
 ```
-![image](https://github.com/user-attachments/assets/7320a97a-a78b-4ebe-a8d0-601ce7f140cf)
+![op](https://github.com/user-attachments/assets/8b80c8fb-b685-4d55-b641-dd63fddea2b6)
 
