@@ -28,4 +28,3 @@ pip install -r requirements.txt
 
 # Run the analysis
 python main.py
-```
