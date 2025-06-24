@@ -28,3 +28,4 @@ pip install -r requirements.txt
 
 # Run the analysis
 python main.py
+![op](https://github.com/user-attachments/assets/0e391ed5-06e1-49a6-b557-74d6a16ebc81)
