@@ -1,42 +1,33 @@
-# Trader Sentiment Analysis
+📊 Trader Sentiment Analysis
 
-This project explores the relationship between trader performance and market sentiment using two datasets: trader execution data and Bitcoin fear/greed sentiment.
+Exploring the relationship between trader performance and market sentiment using Bitcoin fear/greed data
 
-## Structure
-- `data/`: Raw data files
-- `notebooks/`: Jupyter notebooks for analysis
-- `outputs/`: Generated plots and results
+🎯 Project Overview
+This comprehensive analysis investigates how market sentiment affects trading performance by combining:
 
-## How to Run
-```bash
+Trader execution data - Real trading transactions and outcomes
+Bitcoin Fear & Greed Index - Market sentiment indicators
+
+📁 Project Structure
+trader-sentiment-analysis/
+├── 📂 data/              # Raw datasets
+├── 📂 notebooks/         # Jupyter analysis notebooks
+├── 📂 outputs/           # Generated visualizations & results
+├── 📄 main.py           # Main execution script
+├── 📄 requirements.txt  # Dependencies
+└── 📄 README.md         # This file
+🚀 Quick Start
+Prerequisites
+
+Python 3.7+
+pip package manager
+
+Installation & Execution
+bash# Install dependencies
 pip install -r requirements.txt
+
+# Run the analysis
 python main.py
-
 ```
-Data Quality Check:
-Total records after merge: 211224
-Records with sentiment data: 211218
-Records missing sentiment: 6
-Records after removing missing sentiment: 211218
-
-Sentiment distribution:
-classification
-Fear             61837
-Greed            50303
-Extreme Greed    39992
-Neutral          37686
-Extreme Fear     21400
-Name: count, dtype: int64
-
-Basic statistics:
-       Execution Price  ...     Closed PnL
-count    211218.000000  ...  211218.000000   
-mean      11415.047529  ...      48.549304   
-std       29448.010305  ...     917.989791   
-min           0.000005  ... -117990.104100   
-25%           4.858550  ...       0.000000   
-50%          18.280000  ...       0.000000   
-75%         101.895000  ...       5.790132   
-max      10
 
 ![image](https://github.com/user-attachments/assets/167f062f-ebf0-4298-b4f3-619916ac3e70)
