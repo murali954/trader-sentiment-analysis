@@ -10,5 +10,7 @@ This project explores the relationship between trader performance and market sen
 ## How to Run
 ```bash
 pip install -r requirements.txt
-jupyter notebook notebooks/analysis.ipynb
+python main.py
+
 ```
+![image](https://github.com/user-attachments/assets/167f062f-ebf0-4298-b4f3-619916ac3e70)
